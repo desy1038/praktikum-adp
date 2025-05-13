@@ -12,7 +12,7 @@ for i in x:
         fungsi_x = 1
         f.append(fungsi_x)
 
-print("| x | f(x) |")
+print("|\tx\t|\tf(x)\t|")
 
 for i in range(len(x)):
     print("|\t", x[i], "\t|\t", f[i], "\t|\t")
