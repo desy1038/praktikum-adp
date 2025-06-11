@@ -7,12 +7,12 @@ def clear():
 
 def moving_text_from_left_to_right(
     text,
-    text_color="white",
-    highlight_color="on_light_green",
-    delay=0.08,
-    width=40,
-    height=6,
-    row=3
+    text_color = "white",
+    highlight_color = "on_light_green",
+    delay = 0.08,
+    width = 40,
+    height = 6,
+    row = 3
 ):
 
     for pos in range(-len(text), width + 1):
@@ -33,11 +33,11 @@ def moving_text_from_left_to_right(
         time.sleep(delay)
 
 moving_text_from_left_to_right(
-    text="HAPPY EID",
-    text_color="yellow",
-    highlight_color="on_red",
-    delay=0.05,
-    width=40,
-    height=6,
-    row=3
+    text = "HAPPY EID",
+    text_color = "yellow",
+    highlight_color = "on_red",
+    delay = 0.05,
+    width = 40,
+    height = 6,
+    row = 3
 )
