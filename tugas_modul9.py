@@ -7,8 +7,8 @@ def clear():
 
 def moving_text_from_left_to_right(
     text,
-    text_color='white',
-    highlight_color='on_light_green',
+    text_color="white",
+    highlight_color="on_light_green",
     delay=0.08,
     width=40,
     height=6,
@@ -26,7 +26,7 @@ def moving_text_from_left_to_right(
                         char = text[text_index]
                         line += colored(char, text_color, highlight_color)
                     else:
-                        line += colored(' ', text_color, highlight_color)
+                        line += colored(" ", text_color, highlight_color)
                 print(line)
             else:
                 print()
@@ -34,8 +34,8 @@ def moving_text_from_left_to_right(
 
 moving_text_from_left_to_right(
     text="HAPPY EID",
-    text_color='yellow',
-    highlight_color='on_red',
+    text_color="yellow",
+    highlight_color="on_red",
     delay=0.05,
     width=40,
     height=6,
