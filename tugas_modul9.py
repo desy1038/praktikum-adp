@@ -5,7 +5,7 @@ from termcolor import colored
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-def moving_text_left_to_right(
+def moving_text_from_left_to_right(
     text,
     text_color='white',
     highlight_color='on_light_green',
@@ -32,7 +32,7 @@ def moving_text_left_to_right(
                 print()
         time.sleep(delay)
 
-moving_text_left_to_right(
+moving_text_from_left_to_right(
     text="HAPPY EID",
     text_color='yellow',
     highlight_color='on_red',
